@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi tienda</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div style="background-color: #4A171E; color: #E8CDB8; padding: 35px; text-align: center;">
+
+  <span style="font-size: 18px;">✦</span>
+  <span style="letter-spacing: 6px; font-size: 12px;"> ATENEA BEAUTY </span>
+  <span style="font-size: 18px;">✦</span>
+
+  <h1 style="font-family: Georgia, serif; font-size: 52px; letter-spacing: 10px; margin: 15px 0; color: #F4E4D5;"> ATENEA </h1> <div style="width: 80px; height: 1px; background: #C49A7C; margin: auto;"></div> <p style="font-family: Georgia, serif; font-size: 16px; font-style: italic; letter-spacing: 2px;"> Beauty that speaks for itself </p> </div>
+
+  <p class="slogan">
+    Realza tu esencia, se fiel a tu impacto.
+  </p>
+
+  <div class="beneficios">
+    <span>⋆˚꩜｡ Envíos en Bogotá</span>
+    <span>⋆˚꩜｡ Compra segura</span>
+    <span>⋆˚꩜｡ Seguimiento de pedido</span>
+  </div>
+
+  <div id="productos"></div>
+
+  <div class="carrito">
+    <h2>🧾 Carrito de Compras</h2>
+
+    <ul id="lista-carrito"></ul>
+
+    <div class="resumen">
+      <p>
+        Envío: <strong>Gratis</strong>
+      </p>
+
+      <p class="total">
+        Total: $<span id="total">0</span>
+      </p>
+    </div>
+
+    <button class="vaciar" onclick="vaciarCarrito()">
+      🧼 Vaciar Carrito
+    </button>
+
+    <button class="finalizar" onclick="finalizarCompra()">
+      ✅ Finalizar Compra
+    </button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
